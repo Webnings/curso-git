@@ -1,0 +1,48 @@
+:root {
+    --var-cor1: #F9D600;
+    --var-cor2: #4537A5;
+    --var-cor3: #D7263D;
+    --var-cor4: #1B998B;
+} 
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: inline-block;
+    width: 100vw;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+header h1 {
+    font: 3em normal monospace;
+}
+header nav#menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+header h1 {
+   max-width: 60%;
+   margin: auto;
+}
+header nav {
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+}
+header a {
+    margin: auto;
+}
+main {
+    display: block;
+    padding: 30px;
+    width: 50%;
+    margin: auto;
+}
+section {
+    background-color: lightgrey;
+    display: block;
+}
