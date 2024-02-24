@@ -15,6 +15,9 @@ header {
     color: #fff;
     padding: 20px;
 }
+#glr {
+    background-color: #D7263D;
+}
 header h1 {
     font: 3em normal monospace;
 }
@@ -39,10 +42,39 @@ header a {
 main {
     display: block;
     padding: 30px;
-    width: 50%;
+    width: 70%;
     margin: auto;
+}
+#texto {
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+    padding: 20px 0px 20px 0px;
 }
 section {
     background-color: lightgrey;
     display: block;
+}
+section#otos {
+    display: inline-block;
+}
+article {
+    background-color: #68c0cf;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+#curso1, #curso2, #curso3 {
+    display: inline-block;
+    width: 31%;
+    height: 200px;
+}
+section#cursos {
+    padding: 30px;
+    border-radius: 0px 0px 30px 30px;
+}
+footer {
+    text-align: center;
 }
