@@ -81,3 +81,7 @@ footer {
 header, #cursos {
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.493);
 }
+#texto {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.493);
+    margin-bottom: -3px;
+}
